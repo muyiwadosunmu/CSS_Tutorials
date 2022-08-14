@@ -1,7 +1,17 @@
-body {
+html {
     font-size: 22px;
 }
 
+body {
+    
+}
+button, input, textPath, select {
+    font: inherit
+}
+
+main {
+    font-family: monospace;
+}
 h1, h2 {
     color: brown;
 }
@@ -9,7 +19,7 @@ p {
     color:purple;
 }
 
-p span {
+.highlight {
     text-transform: uppercase;
     background-color: gold;
 }
